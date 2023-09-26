@@ -1,0 +1,18 @@
+@import "./null.css";
+@font-face {
+  font-family: "American Typewriter Regular";
+  src: url("/public/fonts/AmericanTypewriterRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  position: relative;
+  font-family: "American Typewriter Regular", sans-serif;
+  height: 100%;
+
+  #root {
+    // display: flex;
+    // flex-direction: column;
+    height: 100%;
+  }
+}

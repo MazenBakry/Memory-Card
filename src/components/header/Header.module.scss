@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  .logo {
+    font-size: 24px;
+  }
+}
